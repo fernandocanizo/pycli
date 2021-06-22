@@ -7,4 +7,4 @@ services:
     stdin_open: true # docker run -i
     working_dir: /home/flc
     volumes:
-      - /my/soft/0.learning/2021.06.21,pcc:/home/flc:rw
+      - /my/soft/0.learning/2021.06.21,pcc:/home/flc/pcc:rw
