@@ -17,9 +17,14 @@ Run
 docker-compose up -d
 ```
 
-Then attach a working shell with
+Then attach a working shell from this folder with:
 ```
 docker-compose exec --user flc pcc bash
+```
+
+Or from anywhere with:
+```
+docker exec -itu flc pcc bash
 ```
 
 ## Preinstalled utilities
@@ -27,3 +32,4 @@ docker-compose exec --user flc pcc bash
 - ipython
 - bpython
 - ptpython
+
