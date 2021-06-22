@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  pcc:
+    image: flc/pcc
+    container_name: pcc
+    stdin_open: true # docker run -i
+    working_dir: /home/flc
+    volumes:
+      - /my/soft/0.learning/2021.06.21,pcc:/home/flc:rw
