@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  pcc:
-    image: flc/pcc
-    container_name: pcc
+  pycli:
+    image: flc/pycli
+    container_name: pycli
     stdin_open: true # docker run -i
     working_dir: /home/flc
     volumes:
