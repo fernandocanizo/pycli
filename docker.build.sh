@@ -3,6 +3,6 @@
 
 
 docker build \
-  -t flc/pcc:`git tag | tail -n 1` \
-  -t flc/pcc:latest \
+  -t flc/pycli:`git tag | tail -n 1` \
+  -t flc/pycli:latest \
   .
