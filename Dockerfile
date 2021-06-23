@@ -1,7 +1,8 @@
 FROM python:3
 
-RUN apt-get update -y && apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
+RUN apt-get update -y && \
+  apt-get upgrade -y && \
+  apt-get install less
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
 
